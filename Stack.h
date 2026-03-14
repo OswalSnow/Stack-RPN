@@ -12,4 +12,4 @@ class Stack{
         bool isEmpty();
         bool areMatching(char opening, char closing);
         Stack();
-}
+};
