@@ -36,9 +36,9 @@ char Stack::Peek(){
 }
 
 bool Stack::areMatching(char opening, char closing){
-    if(inicio == '(' && final == ')') return true;
-    if(inicio == '[' && final == ']') return true;
-    if(inicio == '{' && final == '}') return true;
+    if(opening == '(' && closing == ')') return true;
+    if(opening == '[' && closing == ']') return true;
+    if(opening == '{' && closing == '}') return true;
     return false;
 }
 
